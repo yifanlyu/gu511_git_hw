@@ -567,7 +567,6 @@ def adult_data_demo():
     # re-fit this model to the *entire* train data (it has only ever been fitted
     # to bootstrapped sub-samples)
     p_best.fit(xtrain, ytrain)
-
     # get ccr values on test data
     df_ccr = get_ccr_df(p_best, xtest, ytest)
     ccr_fig = make_ccr_plot(df_ccr)
