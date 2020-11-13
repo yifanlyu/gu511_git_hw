@@ -11,7 +11,9 @@ Description:
     model a freely available dataset
 
 Usage:
-    <usage>
+    import dspipeline
+    dspipeline.adult_data_demo()
+
 
 """
 
